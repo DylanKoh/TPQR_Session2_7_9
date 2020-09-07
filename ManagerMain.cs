@@ -47,7 +47,9 @@ namespace TPQR_Session2_7_9
 
         private void btnViewSummary_Click(object sender, EventArgs e)
         {
-
+            Hide();
+            (new ViewSummary()).ShowDialog();
+            Close();
         }
     }
 }
