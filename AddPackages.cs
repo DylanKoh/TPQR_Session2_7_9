@@ -56,8 +56,9 @@ namespace TPQR_Session2_7_9
                 var node = item.Split(',');
                 using (var context = new Session2Entities())
                 {
+                    var packageName = node[1];
                     var findPackage = (from x in context.Packages
-                                       where x.packageName == node[1]
+                                       where x.packageName == packageName
                                        select x).FirstOrDefault();
                     if (findPackage != null)
                     {
