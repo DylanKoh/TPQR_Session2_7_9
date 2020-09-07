@@ -559,7 +559,7 @@ namespace TPQR_Session2_7_9
             else
             {
                 var getTotal = Convert.ToInt32(dataGridView1.CurrentRow.Cells[4].Value);
-                if (getTotal - nudQuantity.Value > 0)
+                if (getTotal - nudQuantity.Value < 0)
                 {
                     MessageBox.Show("Unable to book! Not enough quantity!");
                 }
