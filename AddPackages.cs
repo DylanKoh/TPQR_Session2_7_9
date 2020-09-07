@@ -78,9 +78,10 @@ namespace TPQR_Session2_7_9
                         context.SaveChanges();
                     }
 
-                    MessageBox.Show($"Successfully added packages! Number of duplicates = {duplicates}");
+                   
                 }
             }
+            MessageBox.Show($"Successfully added packages! Number of duplicates = {duplicates}");
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
