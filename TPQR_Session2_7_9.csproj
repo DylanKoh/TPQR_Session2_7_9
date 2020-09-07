@@ -124,6 +124,12 @@
     <Compile Include="SponsorMain.Designer.cs">
       <DependentUpon>SponsorMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdateBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateBooking.Designer.cs">
+      <DependentUpon>UpdateBooking.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs">
       <DependentUpon>Session2Model.tt</DependentUpon>
     </Compile>
@@ -171,6 +177,9 @@
     </Compile>
     <EmbeddedResource Include="SponsorMain.resx">
       <DependentUpon>SponsorMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateBooking.resx">
+      <DependentUpon>UpdateBooking.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewPackages.resx">
       <DependentUpon>ViewPackages.cs</DependentUpon>

@@ -16,7 +16,7 @@ namespace TPQR_Session2_7_9
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ManagerMain());
+            Application.Run(new Login());
         }
     }
 }

@@ -33,5 +33,12 @@ namespace TPQR_Session2_7_9
             (new BookSponsorship(_user)).ShowDialog();
             Close();
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            Hide();
+            (new UpdateBooking(_user)).ShowDialog();
+            Close();
+        }
     }
 }

@@ -108,6 +108,7 @@
             this.btnUpdate.TabIndex = 6;
             this.btnUpdate.Text = "Update Sponsorship Bookings";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // SponsorMain
             // 
@@ -120,7 +121,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "SponsorMain";
             this.Text = "Sponsor Main Menu";
             this.panel1.ResumeLayout(false);
