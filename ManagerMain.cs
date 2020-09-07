@@ -30,5 +30,12 @@ namespace TPQR_Session2_7_9
             (new ViewPackages()).ShowDialog();
             Close();
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            Hide();
+            (new AddPackages()).ShowDialog();
+            Close();
+        }
     }
 }
